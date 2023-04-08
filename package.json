@@ -1,0 +1,46 @@
+{
+  "name": "notionapitrain",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "hi-dev": "next dev --turbo --show-all",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next-auth/firebase-adapter": "^1.0.3",
+    "@next/font": "13.1.5",
+    "@notionhq/client": "^2.2.3",
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/node": "^18.15.5",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vercel/og": "^0.4.0",
+    "autoprefixer": "^10.4.13",
+    "daisyui": "^2.50.0",
+    "dotenv": "^16.0.3",
+    "encoding": "^0.1.13",
+    "eslint": "^8.36.0",
+    "eslint-config-next": "^13.2.4",
+    "eslint-config-prettier": "^8.8.0",
+    "firebase": "^9.16.0",
+    "html-react-parser": "^3.0.13",
+    "microcms-js-sdk": "^2.3.2",
+    "next": "^13.2.4",
+    "next-auth": "^4.19.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.2.4",
+    "typescript": "4.9.4",
+    "webpack": "5.20.2"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "mini-css-extract-plugin": "^2.7.2",
+    "webpack-merge": "^5.8.0"
+  }
+}
